@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/Xiezhichao/CCWebViewController.git", :tag => "1.0.0" }
-  s.source_files  = "WebViewDemo/WebViewDemo/CCWebViewController/oc/*"
+  s.source_files  = "CCWebViewController/oc/*"
   s.frameworks = 'WebKit'
   s.resource_bundles = {
-    'CCWebViewController' => ['WebViewDemo/WebViewDemo/CCWebViewController/image/*.png']
+    'CCWebViewController' => ['CCWebViewController/image/*.png']
   }
   s.requires_arc = true
 end

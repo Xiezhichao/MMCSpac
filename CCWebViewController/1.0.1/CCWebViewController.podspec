@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source_files  = "CCWebViewController_OC/*.{h,m}"
   s.frameworks = 'WebKit'
   s.resource_bundles = {
-    'CCWebViewController' => ['CCWebViewController_OC/*.png']
+    'CCWebViewController_OC' => ['CCWebViewController_OC/*.png']
   }
   s.requires_arc = true
 end
